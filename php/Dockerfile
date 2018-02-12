@@ -27,5 +27,4 @@ RUN docker-php-source delete
 COPY ./apache2.conf /etc/apache2/apache2.conf
 COPY ./000-default.conf /etc/apache2/sites-enabled/000-default.conf
 COPY ./php.ini /usr/local/etc/php/php.ini
-COPY ../www/index.php /var/www/index.php
 RUN a2enmod rewrite
