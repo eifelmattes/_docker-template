@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo 'Der Webserver läuft!'
+        echo 'Der Webserver läuft!';
         ?>
     </body>
 </html>
