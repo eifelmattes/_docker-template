@@ -1,3 +1,8 @@
+<?php
+          if (isset($_REQUEST['submit'])) {
+            phpinfo();
+          }
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -11,7 +16,14 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo 'Der Webserver läuft!';
+          echo 'Der Webserver läuft!';
         ?>
-    </body>
+
+
+        <form name="PHP-Info anzeigen" action="index.php">
+            <input type="submit" name="submit" Value="PHP-Info">
+        </form>
+
+
+        </body>
 </html>
